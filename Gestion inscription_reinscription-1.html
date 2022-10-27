@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+
+   
+    <form method="post" action="traitement.php">
+        <!--header-->
+        <div class="content">
+       <center> <h1>Wireframe 1: Gestion des inscriptions/reinscriptions</h1>
+        <h2>Gestion des inscriptions</h2>
+        <table border="1">
+            <tr>
+                <td>
+                    <label for="Anne scolaire">Anne scolaire</label>
+                    <input type="text" id="Anne scolaire" name="Anne scolaire">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Nom/Prenom">Nom/Prenom</label>
+                    <input type="text" id="Nom/Prenom" name="Nom/Prenom">   
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Date naissance">Date naissance</label>
+                    <input type="text" id="Date naissance" name="Date naissance"> 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Adresse">Adresse</label>
+                    <input type="text" id="Adresse" name="Adresse"> 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Classe">Classe</label>
+                    <select name="Classe" id="Classe">
+                        <option value="LIAGE">LIAGE</option>
+                        <option value="GLRS">GLRS</option>
+                        <option value="MAIE">MAIE</option>
+                    </select>   
+                </td>
+            </tr>
+            <td>
+                <input type="reset" value="reset"> <input type="submit" value="envoyer">
+            </td>
+
+        </table>
+       </center>
+        
+       
+    </form>
+    
+</body>
+</html>
